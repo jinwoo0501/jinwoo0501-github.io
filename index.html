@@ -1,10 +1,87 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 <head>
-<title>Hello, world!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이력서</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section-title {
+            background: #333;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .info, .experience, .education, .skills {
+            padding: 10px;
+            background: #f9f9f9;
+            border-radius: 5px;
+        }
+        .info p, .experience p, .education p, .skills p {
+            margin: 5px 0;
+        }
+    </style>
 </head>
 <body>
-<h1>Hello, world!</h1>
-<p>Sunhee의 홈페이지에 오신 것을 환영합니다!</p>
+    <div class="container">
+        <header>
+            <h1>김진우</h1>
+            <p>Email: jin050183@dongyang.ac.kr | Phone: 010-9038-5829</p>
+        </header>
+        <section class="section info">
+            <h2 class="section-title">개인 정보</h2>
+            <p>주소: 서울특별시 양천구 신월7동</p>
+            <p>생년월일: 2000년 5월 1일</p>
+        </section>
+        <section class="section experience">
+            <h2 class="section-title">경력</h2>
+            <div>
+                <h3>회사명 (YYYY-MM ~ YYYY-MM)</h3>
+                <p>직책: 직책명</p>
+                <p>담당 업무: 업무 설명</p>
+            </div>
+            <div>
+                <h3>회사명 (YYYY-MM ~ YYYY-MM)</h3>
+                <p>직책: 직책명</p>
+                <p>담당 업무: 업무 설명</p>
+            </div>
+        </section>
+        <section class="section education">
+            <h2 class="section-title">학력</h2>
+            <div>
+                <h3>학교명 (2016-03 ~ 2019-02)</h3>
+                <p>전공: U-정보통신과</p>
+                <p>학위: 고등학교</p>
+            </div>
+        </section>
+        <section class="section skills">
+            <h2 class="section-title">기술 및 자격증</h2>
+            <p>기술: 네트워크 보안</p>
+            <p>자격증: 정보처리기능사</p>
+            <p>자격증: 정보기기기능사</p>
+            <p>자격증: 네트워크관리사2급</p>
+            <p>자격증: 리눅스마스터2급</p>
+        </section>
+    </div>
 </body>
 </html>
